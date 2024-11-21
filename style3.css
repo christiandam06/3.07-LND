@@ -1,0 +1,10 @@
+:root{
+    --ColorFondo: rgb(128, 204, 255);
+    --ColorHover : rgba(128, 204, 255, 0.658);
+    --ColorTexto : rgb(255, 255, 255);
+    --Ancho : 180px;
+    --AlineacionTexPadres : center;
+    --AlineacionHijos: left;
+    --Fuente: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+

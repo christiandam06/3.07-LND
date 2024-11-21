@@ -17,14 +17,14 @@
     
 }
 .MenuPrincipal li{
-    background-color: red;
-    width: 190px;   
+    background-color: var(--ColorFondo);
+    width: var(--Ancho);   
     
 }
 .MenuPrincipal a {
     text-decoration: none;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--ColorTexto);
+    font-family: var(--Fuente);
     font-weight: 700;
     font-size: 12px;
     line-height: 32px;
@@ -36,14 +36,11 @@
     position: absolute;
 }
 .MenuPrincipal ul li:hover{
-    background-color: brown;
+    background-color: var(--ColorHover);
 }
 .MenuPrincipal ul li:hover > ul{
     display: block;
 
-}
-.MenuPrincipal ul ul li{
-    width: 190px;
 }
 .MenuPrincipal ul ul ul {
     top: 0px;
