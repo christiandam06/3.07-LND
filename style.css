@@ -9,17 +9,11 @@
 .MenuPrincipal li {
     float:left;
     position: relative;
-    
-    
+    background-color: var(--ColorFondo);
+    width: var(--Ancho);
 }
 .MenuPrincipal > ul > li{
     text-align: center;
-    
-}
-.MenuPrincipal li{
-    background-color: var(--ColorFondo);
-    width: var(--Ancho);   
-    
 }
 .MenuPrincipal a {
     text-decoration: none;
@@ -29,7 +23,6 @@
     font-size: 12px;
     line-height: 32px;
     padding: 10px 15px;
-
 }
 .MenuPrincipal ul ul {
     display: none;
